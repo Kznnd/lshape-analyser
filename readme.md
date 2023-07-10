@@ -54,11 +54,13 @@ Before scoring, first modify the calibration parameters corresponding to the dep
 # Mutiple mode #
 ## (A)Choose mutiple project ##
 Select mutiple projcet in the 'mutiple' tab. These projects must be based on the same sequence of data from different perspectives of the same batch of animals.   
+![Multiple main page](Fig/Mutiple_main_page.png)
 ## (B)Train a FNN ##
 A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
-![Multiple main page](Fig/FNN_train.png)  
+![FFN train](Fig/FNN_train.png)  
 ## (C)Evaluate ##
 It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file).  
+![Multiple evaluate](Fig/Mutiple_evaluate.png)
 **Author: Jialong Zhang(张嘉龙)**  
 **Unit: China Agricultural University**  
 **First completion Date: July 11, 2023**  
