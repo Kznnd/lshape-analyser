@@ -11,14 +11,14 @@ Install [anaconda](https://www.anaconda.com/data-science-platform).
 ## Step2 ##
 Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
 # Usage #
-Enter `Main` in the command line of MATLAB and than will open the below page.  
-![Main page](Fig/Main_page.png)
+Enter `Main` in the command line of MATLAB.
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page. 
 # Single mode #
 ![Single main page](Fig/Single_main_page.png)
 ## (A)Create or load a project
-User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Load old project" where can also do some other management operations.
+User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Load old project" where can also do some other management operations.  
+![Main page](Fig/Main_page.png)
 ## (B)Import depth image ##
 After create or load a project, a new page--the project page will open. User can select 'File' in the menu bar, and then select 'Import'. A folder selection interface will pop up. Please select a folder containing the depth images you want to use (this will import all files with the extension png under this folder, so do not place other images in this folder).
 ## (C)Write a video ##
