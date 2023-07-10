@@ -1,7 +1,7 @@
 # **LShapeAnalyzer** #
 Created by **Jialong Zhang**,  **Hao Guo**  from China Agricultural University.  
 # Introduction #
-This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).
+This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS). The dataset used in this study, along with the code implementation, will be made publicly available following the publication of our paper.
 
 # Tool Requirements #
 *MATLAB R2023a*
