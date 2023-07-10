@@ -49,7 +49,7 @@ Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button or '
 Click 'Start evaluate' button in the 'Train' tab or 'Train' under 'Model' option in the menu to obtain an average shape and record the minimum and maximum scores as well as BCS;  
 ![Train](Fig/Train.png)
 ## (I)Score any similar image ##
-Before scoring, first modify the calibration parameters corresponding to the depth image and the desired triming method under the 'Convert to mesh' tab. Then select individual or batch data as needed and click the 'Score' button to score. When selecting bulk data, simply select the directory containing depth images with the extension png.  
+Before scoring, first modify the calibration parameters corresponding to the depth image and the desired triming method under the 'Convert to mesh' tab. Then browse the DLC project you created and select individual or batch data as needed and click the 'Score' button to score. When selecting bulk data, simply select the directory containing depth images with the extension png.  
 ![Score](Fig/Score.png)
 # Mutiple mode #
 ![Multiple main page](Fig/Multiple_main_page.png)
