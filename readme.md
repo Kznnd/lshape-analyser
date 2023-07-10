@@ -1,5 +1,5 @@
 # **LShapeAnalyzer** #
-Created by **Jialong Zhang** from China Agricultural University.  
+Created by **Jialong Zhang**,  **Hao Guo**  from China Agricultural University.  
 # Introduction #
 This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).
 
@@ -58,7 +58,7 @@ Select mutiple projcet in the 'mutiple' tab. These projects must be based on the
 A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
 ![Multiple main page](Fig/FNN_train.png)  
 ## (C)Evaluate ##
-It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a. mat file).  
+It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file).  
 **Author: Jialong Zhang(张嘉龙)**  
 **Unit: China Agricultural University**  
 **First completion Date: July 11, 2023**  
