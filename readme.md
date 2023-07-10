@@ -11,7 +11,7 @@ Install [anaconda](https://www.anaconda.com/data-science-platform).
 ## Step2 ##
 Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
 # Usage #
-Enter `Main` in the command line of MATLAB. 
+Enter `Main` in the command line of MATLAB.  
 ![Main page](Fig/Main_page.png)
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page. 
