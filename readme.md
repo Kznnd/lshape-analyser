@@ -15,6 +15,7 @@ Enter `Main` in the command line of MATLAB.
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page. 
 # Single mode #
+![Single main page](Fig/Single_main_page.png)
 ## (A)Create or load a project
 User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Load old project" where can also do some other management operations.
 ## (B)Import depth image ##
