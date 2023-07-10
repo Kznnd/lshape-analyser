@@ -60,7 +60,8 @@ A network has been trained on data from three parts of beef cattle, which users 
 ![FFN train](Fig/FNN_train.png)  
 ## (C)Evaluate ##
 It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file).  
-![Multiple evaluate](Fig/Mutiple_evaluate.png)
+![Multiple evaluate](Fig/Mutiple_evaluate.png)  
+  
 **Author: Jialong Zhang(张嘉龙)**  
 **Unit: China Agricultural University**  
 **First completion Date: July 11, 2023**  
