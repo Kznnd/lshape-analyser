@@ -12,6 +12,7 @@ Install [anaconda](https://www.anaconda.com/data-science-platform).
 Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
 # Usage #
 Enter `Main` in the command line of MATLAB. 
+![Main page](Fig/Main_page.png)
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page. 
 # Single mode #
@@ -44,6 +45,7 @@ Click 'Start evaluate' button in the 'Train' tab or 'Train' under 'Model' option
 ## (I)Score any similar image ##
 Before scoring, first modify the calibration parameters corresponding to the depth image and the desired triming method under the 'Convert to mesh' tab. Then select individual or batch data as needed and click the 'Score' button to score. When selecting bulk data, simply select the directory containing depth images with the extension png.
 # Mutiple mode #
+![Multiple main page](Fig/Multiple_main_page.png)
 ## (A)Choose mutiple project ##
 Select mutiple projcet in the 'mutiple' tab. These projects must be based on the same sequence of data from different perspectives of the same batch of animals. A network has been trained on data from three parts of beef cattle, which users can directly use for testing.  
 If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
