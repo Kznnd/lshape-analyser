@@ -3,7 +3,9 @@ Created by **zjl**  from ???.
 # Introduction #
 This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).  **The dataset used in this study, along with the code implementation, will be made publicly available following the publication of our paper.** The workflow of our tool can be seen in the following figure.  
 ![Tool workflow](Fig/Image%20process.png)  
+ **Workflow of our tool**  
 ![Average Shape Demonstration](Fig/Average%20Shape%20Demonstration.gif)  
+ **Enlarged schematic diagram of Figure (i)**  
 Some intermediate results can be viewed in the  **‘dataset’**  folder.  
 # Tool Requirements #
 **MATLAB R2023a**
@@ -19,11 +21,11 @@ User can select a mode through the tab(single or multiple) in the main page.
 # Single mode #
 ## (A)Create or load a project
 User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Load old project" where can also do some other management operations.  
-![Main page](Fig/Main_page.png)
+![Main page](Fig/Main_page.png)  
  **Main page** 
 ## (B)Import depth image ##
 After create or load a project, a new page--the project page will open. User can select 'File' in the menu bar, and then select 'Import'. A folder selection interface will pop up. Please select a folder containing the depth images you want to use (this will import all files with the extension png under this folder, so do not place other images in this folder).  
-![Import file](Fig/Import%20file.png)
+![Import file](Fig/Import%20file.png)  
  **Import depth image file page** 
 ## (C)Write a video ##
 Click on 'Write avi' in the 'Write video' tab or click on 'WriteVideo' under 'Preprocess' in the menu bar will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for **DeepLabCut(DLC)**).  
