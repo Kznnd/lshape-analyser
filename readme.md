@@ -25,7 +25,8 @@ After create or load a project, a new page--the project page will open. User can
 ![Import file](Fig/Import%20file.png)
 ## (C)Write a video ##
 Click on 'Write avi' in the 'Write video' tab or click on 'WriteVideo' under 'Preprocess' in the menu bar will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for **DeepLabCut(DLC)**).  
-![Write video](Fig/Write%20video.png)
+![Write video](Fig/Write%20video.png)  
+![Gray folder](Fig/gray_and_video.png)  
 ## (D)Key point detect ##
 Select 'Keypoint detect' under 'Preprocess' in the menu bar or click the 'Open DLC' button on the 'Detection' tab will open the DLC GUI. Under this interface, please follow the steps below to operate:  
 1. Click on the 'create Project' button on the homepage and input the information of "Project", "Experimenter" and "Location". Then check the "Copy videos to project folder"(If unchecked, the original video will be deleted).Finally, click the "Browse videos" button and select the directory "../your project name/Preprocessed/gray";  
