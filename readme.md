@@ -92,7 +92,7 @@ A network has been trained on data from three parts of beef cattle, which users 
 ![FNN train](Fig/FNN_train.png)  
  **FNN train page**  
   
-## (C)Evaluate ##
+## (C)Evaluation ##
 It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file).  
 ![Multiple evaluate](Fig/Mutiple_evaluate.png)  
  **Multiple body part evaluation page**  
