@@ -43,7 +43,7 @@ Enter calibration parameters in the 'Convert to mesh' tab and select the triming
 Enter or import the ground truth of BCS in the 'Input BCS' tab after click 'Load BCS' button, then click 'Save BCS' button to save;  
 ![Input BCS](Fig/Input%20truth.png)
 ## (G)Evaluate accuracy ##
-Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button or 'Evaluate accuracy' under 'Evaluate' option in the menu to evaluate the accuracy. Modifying the value of the error increment will result in a change in the discrete approximation increment of the evaluation value and the displayed result increment;
+Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button or 'Evaluate accuracy' under 'Evaluate' option in the menu to evaluate the accuracy. Modifying the value of the 'Discretization increment' and 'Display increment' will result in a change in the discrete approximation increment of the evaluation value and the displayed result increment respectively.'Diff_cal_space' specifies whether the calculation of shape differences is based on the distance between point coordinates in Euclidean space or the distance between coordinates extracted from the basis vector using PCA;
 ![Evaluate](Fig/Evaluate.png)
 ## (H)Train a model ##
 Click 'Start evaluate' button in the 'Train' tab or 'Train' under 'Model' option in the menu to obtain an average shape and record the minimum and maximum scores as well as BCS;  
