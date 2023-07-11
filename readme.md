@@ -73,6 +73,9 @@ Click 'Start evaluate' button in the 'Train' tab or 'Train' under 'Model' option
 ![Train](Fig/Train.png)  
  **Train page**  
   
+![Show the aligned meshes](Fig/alignmesh.gif)  
+ **Aligned mesh**  
+  
 ## (I)Score any similar image ##
 Before scoring, first modify the calibration parameters corresponding to the depth image and the desired triming method under the 'Convert to mesh' tab. Then browse the DLC project you created and select individual or batch data as needed and click the 'Score' button to score. When selecting bulk data, simply select the directory containing depth images with the extension png.  
 ![Score](Fig/Score.png)  
