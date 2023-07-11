@@ -3,7 +3,7 @@ Created by **zjl**  from ???.
 # Introduction #
 This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).  **The dataset used in this study, along with the code implementation, will be made publicly available following the publication of our paper.** The workflow of our tool can be seen in the following figure.  
 ![Tool workflow](Fig/Image%20process.png)  
-<video src="https://gitee.com/kznd/lshape-analyzer/tree/master/Fig/Average Shape Demonstration.mp4" controls></video>  
+[Average Shape Demonstration](https://gitee.com/kznd/lshape-analyzer/tree/master/Fig/Average Shape Demonstration.mp4)
 Some intermediate results can be viewed in the  **‘dataset’**  folder.  
 # Tool Requirements #
 **MATLAB R2023a**
