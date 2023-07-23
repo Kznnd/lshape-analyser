@@ -7,7 +7,7 @@ This project will share a tool for quantitatively analyzing the local shape of a
   
 ![Average Shape Demonstration](Fig/Average%20Shape%20Demonstration.gif)  
   
- **Enlarged schematic diagram of Figure (i)**  
+ **Enlarged schematic diagram of Figure (i)(show in meshlab)**  
 Some intermediate results can be viewed in the  **‘dataset’**  folder.  
 # Tool Requirements #
 **MATLAB R2023a**
