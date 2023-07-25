@@ -1,4 +1,4 @@
-# **LShapeAnalyser** #
+# **LShapeAnalyser_MATLAB** #
 Created by **zjl**  from ???.  
 # Introduction #
 This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).  **The dataset used in this study, along with the code implementation, will be made publicly available following the publication of our paper.** The workflow of our tool can be seen in the following figure.  
