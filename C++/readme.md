@@ -14,7 +14,7 @@ Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/do
 ## Step3 ##
 Download the [pcl-1.12.1](https://github.com/PointCloudLibrary/pcl/releases).
 ## Step4 ##
-Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/)
+Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).
 ## Step5 ##
-Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download)
+Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download).
 # Usage #
