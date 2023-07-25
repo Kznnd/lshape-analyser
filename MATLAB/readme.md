@@ -1,14 +1,7 @@
 # **LShapeAnalyser_MATLAB** #
 Created by **zjl**  from ???.  
 # Introduction #
-This project will share a tool for quantitatively analyzing the local shape of animals, mainly used for quantitatively evaluating their body condition scores(BCS).  **The dataset used in this study, along with the code implementation, will be made publicly available following the publication of our paper.** The workflow of our tool can be seen in the following figure.  
-![Tool workflow](Fig/Image%20process.png)  
- **Workflow of our tool**  
-  
-![Average Shape Demonstration](Fig/Average%20Shape%20Demonstration.gif)  
-  
- **Enlarged schematic diagram of Figure (i)(show in meshlab)**  
-Some intermediate results can be viewed in the  **‘dataset’**  folder.  
+LShapeAnalyser tool written in MATLAB.
 # Tool Requirements #
 **MATLAB R2023a**
 # Environment Preparation #
