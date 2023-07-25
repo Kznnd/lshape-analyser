@@ -4,8 +4,8 @@
 Created by **zjl** from ???.  
 # Introdution #
 LShapeAnalyser tool written in C++.
-# Tool Requirements #
-**Visual Studio 2019**
+# Environment Requirements #
+**Visual Studio 2019, PCL-1.12.1, Qt-5.14.2, OpenCV-4.6.0**
 # Environment Preparation #
 ## Step1 ##
 Install [anaconda](https://www.anaconda.com/data-science-platform).
