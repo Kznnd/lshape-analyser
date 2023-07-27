@@ -2,8 +2,8 @@
 Created by **zjl**  from ???.  
 # Introduction #
 LShapeAnalyser tool written in MATLAB.
-# Tool Requirements #
-**MATLAB R2023a**
+# Environment Requirements #
+**MATLAB R2023a** in windows 10/11
 # Environment Preparation #
 ## Step1 ##
 Install [anaconda](https://www.anaconda.com/data-science-platform).
