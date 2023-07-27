@@ -62,7 +62,7 @@ Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button or '
  **Evaluate page**  
   
 ## (H)Train a model ##
-Click 'Start evaluate' button in the 'Train' tab or 'Train' under 'Model' option in the menu to obtain an average shape and record the minimum and maximum scores as well as BCS;  
+Click 'Train' button in the 'Train' tab or 'Train' under 'Model' option in the menu to obtain an average shape and record the minimum and maximum scores as well as BCS;  
 ![Train](Fig/Train.png)  
  **Train page**  
   
