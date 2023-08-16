@@ -23,17 +23,20 @@ Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
 Users can directly compile and run this project in Visual studio 2019.
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page.
+
 # Singel mode #
 ##(A)create or load a project##
 User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Operate old project" where can also do some other management operations.  
 ![Main_page](Fig/Main_page.png)  
 **Main page**  
+
 ##(B)Import depth image##
 After create or load a project, a new page--the project page will open. User can select 'File' in the menu bar, and then select 'Import'. A folder selection interface will pop up. Please select a folder containing the depth images you want to use (this will import all files with the extension png under this folder, so do not place other images in this folder).Then it will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for DeepLabCut(DLC)).
 ![Import_depth](Fig/Import_depth.png)
  **Import the depth image**   
 ![gray_and_video](Fig/gray_and_video.png)
 **Converted gray image and synthetic video**  
+
 ## (C)key points detect##
 Click the 'Open DLC' button on the 'Detection' tab will open the DLC GUI. Under this interface, please follow the steps below to operate:  
 1. Click on the 'create Project' button on the homepage and input the information of "Project", "Experimenter" and "Location". Then check the "Copy videos to project folder"(If unchecked, the original video will be deleted).Finally, click the "Browse videos" button and select the directory "../your project name/Preprocessed/gray";  
@@ -47,5 +50,32 @@ Click the 'Open DLC' button on the 'Detection' tab will open the DLC GUI. Under 
 For more operations and details of DLC, please refer to the official documentation provided by [DLC](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/). 
 ![Open_DLC](Fig/Open_DLC.png)
  **Open DLC page**  
+
 ##(D)Convert to mesh##
 Enter calibration parameters in the 'Convert to mesh' tab. Click the 'Start convert' button will start the conversion of the depth image to the trimmed mesh.
+![Convert_to_mesh](Fig/Convert_to_mesh.png)
+ **Convert to mesh page**  
+
+##(E)Input truth##
+Enter or import the ground truth of BCS in the 'Input BCS' tab after click 'Load BCS' button, then click 'Save BCS' button to save;  
+![Input_truth](Fig/Input_truth.png) 
+ **Input BCS page**  
+
+##(F)Evaluate accuracy##
+Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button to evaluate the accuracy. Modifying the value of the 'Discretization incre' and 'Display incre' will result in a change in the discrete approximation increment of the evaluation value and the displayed result increment respectively.
+![Evaluate](Fig/Evaluate.png)
+ **Evaluate page**  
+
+## (H)Train a model ##
+Click 'Train' button in the 'Train' tab to obtain an average shape and record the minimum and maximum scores as well as BCS;  
+![Train](Fig/Train.png)
+ **Train page**  
+  
+![Show the aligned meshes](Fig/alignmesh.gif)  
+ **Aligned meshes**  
+
+## (I)Score any similar image ##
+Before scoring, first modify the calibration parameters corresponding to the depth image under the 'Convert to mesh' tab. Then browse the DLC project you created and select folder that contain depth images and click the 'Score' button to score. 
+![Score](Fig/Score.png)  
+ **Score page**  
+
