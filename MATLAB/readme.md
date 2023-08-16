@@ -1,5 +1,5 @@
 # **[LShapeAnalyser_MATLAB](https://gitee.com/kznd/lshape-analyser/tree/master)** #
-Created by **zjl**  from ???.  
+Created by **Jialong Zhang(张嘉龙)**  from China Agricultural University.  
 # Introduction #
 LShapeAnalyser tool written in MATLAB.
 # Environment Requirements #
@@ -90,6 +90,4 @@ It is almost identical to the single part evaluation operation, and only needs t
 ![Multiple evaluate](Fig/Mutiple_evaluate.png)  
  **Multiple body part evaluation page**  
   
-**Author: zjl**  
-**Unit: ???**  
 **First completion Date: July 11, 2023**  
