@@ -71,7 +71,7 @@ Click 'Train' button in the 'Train' tab to obtain an average shape and record th
 ![Train](Fig/Train.png)
  **Train page**  
   
-![Show the aligned meshes](Fig/alignmesh.gif)  
+![Show the aligned meshes](Fig/alignmesh.gif)
  **Aligned meshes**  
 
 ## (I)Score any similar image ##
