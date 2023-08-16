@@ -79,3 +79,6 @@ Before scoring, first modify the calibration parameters corresponding to the dep
 ![Score](Fig/Score.png)  
  **Score page**  
 
+# Mutiple mode #
+## (A)Choose mutiple project ##
+Select mutiple projcet in the 'mutiple' tab. These projects must be based on the same sequence of data from different perspectives of the same batch of animals.   
