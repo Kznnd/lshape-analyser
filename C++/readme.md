@@ -1,7 +1,7 @@
 ###  **The tool of C++ version is developing.** 
 
 # **LShapeAnalyser_C++** #
-Created by **Jialong Zhang** from China Agricultural University.  
+Created by **Jialong Zhang(张嘉龙)** from China Agricultural University.  
 # Introdution #
 LShapeAnalyser tool written in C++.
 # Environment Requirements #
