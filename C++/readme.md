@@ -20,3 +20,13 @@ Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6
 ## Step6 ##
 Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
 # Usage #
+Users can directly compile and run this project in Visual studio 2019.
+## Select mode ##
+User can select a mode through the tab(single or multiple) in the main page.
+# Singel mode #
+##(A)create or load a project##
+User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Operate old project" where can also do some other management operations.  
+![Main_page](Fig/Main_page.png)  
+**Main page**  
+##(B)Import depth image##
+After create or load a project, a new page--the project page will open. User can select 'File' in the menu bar, and then select 'Import'. A folder selection interface will pop up. Please select a folder containing the depth images you want to use (this will import all files with the extension png under this folder, so do not place other images in this folder).Then it will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for DeepLabCut(DLC)).
