@@ -1,4 +1,4 @@
-###  **The tool of C++ version is developing.** 
+###  **The tool of C++ version is now incomplete and developing.** 
 
 # **LShapeAnalyser_C++** #
 Created by **Jialong Zhang(张嘉龙)** from China Agricultural University.  
@@ -82,3 +82,17 @@ Before scoring, first modify the calibration parameters corresponding to the dep
 # Mutiple mode #
 ## (A)Choose mutiple project ##
 Select mutiple projcet in the 'mutiple' tab. These projects must be based on the same sequence of data from different perspectives of the same batch of animals.   
+![Mutiple](Fig/Mutiple.png)
+ **Main page for multiple part processing**  
+
+## (B)Train a FNN ##
+A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
+![Mutiple_train](Fig/Mutiple_train.png)
+ **FNN train page**  
+
+## (C)Evaluation ##
+It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step.
+![Mutiple_evaluate](Fig/Mutiple_evaluate.png)
+ **Multiple body part evaluation page**  
+  
+**First completion Date: incomplete**  
