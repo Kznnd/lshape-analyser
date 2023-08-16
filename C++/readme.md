@@ -45,3 +45,7 @@ Click the 'Open DLC' button on the 'Detection' tab will open the DLC GUI. Under 
 7. Import file ../your project name/Preprocessed/gray/BCS.avi in the 'Analyze videos' tab and be sure to check 'Save result(s) as csv', then click on the 'Analyze Video' button and wait it finish;  
 8. Exit DLC GUI.  
 For more operations and details of DLC, please refer to the official documentation provided by [DLC](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/). 
+![Open_DLC](Fig/Open_DLC.png)
+ **Open DLC page**  
+##(D)Convert to mesh##
+Enter calibration parameters in the 'Convert to mesh' tab. Click the 'Start convert' button will start the conversion of the depth image to the trimmed mesh.
