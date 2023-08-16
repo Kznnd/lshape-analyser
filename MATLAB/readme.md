@@ -26,8 +26,7 @@ After create or load a project, a new page--the project page will open. User can
   
 ## (C)Write a video ##
 Click on 'Write avi' in the 'Write video' tab or click on 'WriteVideo' under 'Preprocess' in the menu bar will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for **DeepLabCut(DLC)**).  
-![Write video](Fig/Write%20video.png)  
-  
+![Write video](Fig/Write%20video.png)
  **Write video page**  
 ![Gray folder](Fig/gray_and_video.png)
  **Converted gray image and synthetic video**  
