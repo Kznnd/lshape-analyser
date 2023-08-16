@@ -15,7 +15,7 @@ Enter `Main` in the command line of MATLAB.
 User can select a mode through the tab(single or multiple) in the main page. 
 # Single mode #
 ## (A)Create or load a project
-User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Load old project" where can also do some other management operations.  
+User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Operate old project" where can also do some other management operations.  
 ![Main page](Fig/Main_page.png)  
  **Main page** 
   
