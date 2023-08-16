@@ -47,7 +47,7 @@ For more operations and details of DLC, please refer to the official documentati
  **Open DLC page**  
   
 ## (E)Convert to mesh ##
-Enter calibration parameters in the 'Convert to mesh' tab and select the triming method based on whether the circled polygons are convex or not(using non convex methods will significantly increase the processing time). Click the 'Start convert' button or the 'Convert mesh' option under 'Preprocess' in the menu bar will start the conversion of the depth image to the cropped mesh. Check the "Write original pointcloud" will write the pointcloud converted from the cropped depth images in the "../your project name/reprocessed/pointcloud/" folder. Check the "Add Non_rigid transform" will cause the mesh to perform non-rigid registration towards the point cloud;  
+Enter calibration parameters in the 'Convert to mesh' tab and select the triming method based on whether the circled polygons are convex or not(using non convex methods will significantly increase the processing time). Click the 'Start convert' button or the 'Convert mesh' option under 'Preprocess' in the menu bar will start the conversion of the depth image to the trimmed mesh. Check the "Write original pointcloud" will write the pointcloud converted from the cropped depth images in the "../your project name/reprocessed/pointcloud/" folder. Check the "Add Non_rigid transform" will cause the mesh to perform non-rigid registration towards the point cloud;  
 ![Convert to mesh](Fig/Convert_to_mesh.png)  
  **Convert to mesh page**  
   
