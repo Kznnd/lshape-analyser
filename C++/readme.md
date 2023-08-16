@@ -30,3 +30,5 @@ User can input the project name in the edit field in the panel "Create new proje
 **Main page**  
 ##(B)Import depth image##
 After create or load a project, a new page--the project page will open. User can select 'File' in the menu bar, and then select 'Import'. A folder selection interface will pop up. Please select a folder containing the depth images you want to use (this will import all files with the extension png under this folder, so do not place other images in this folder).Then it will convert the imported depth images into grayscale images and synthesize a video with the extension avi one by one frame(used as input for DeepLabCut(DLC)).
+![Import_depth](Fig/Import_depth.png)
+ **Import the depth image**   
