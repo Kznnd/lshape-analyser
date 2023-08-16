@@ -14,4 +14,6 @@ We have developed the MATLAB version which use the appdesigner to develop. One c
 ### Note
 **We now are developing the corresponding tool used C++. Stay tuned.**
 
-Author: zjl
+Author: Jialong Zhang(张嘉龙)
+Unit: China Agricultural University
+Major: Computer technology
