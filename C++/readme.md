@@ -24,7 +24,7 @@ Users can directly compile and run this project in Visual studio 2019.
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page.
 
-# Singel mode #
+# Single mode #
 ##(A)create or load a project##
 User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Operate old project" where can also do some other management operations.  
 ![Main_page](Fig/Main_page.png)  
