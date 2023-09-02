@@ -86,7 +86,7 @@ Select mutiple projcet in the 'mutiple' tab. These projects must be based on the
  **Main page for multiple part processing**  
 
 ## (B)Train a FNN ##
-A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
+A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.  
 ![Mutiple_train](Fig/Mutiple_train.png)
  **FNN train page**  
 
