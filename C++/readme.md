@@ -52,7 +52,7 @@ For more operations and details of DLC, please refer to the official documentati
  **Open DLC page**  
 
 ## (D)Convert to mesh ##
-Enter calibration parameters in the 'Convert to mesh' tab. Click the 'Start convert' button will start the conversion of the depth image to the trimmed mesh.
+Enter calibration parameters in the 'Convert to mesh' tab. Click the 'Start convert' button will start the conversion of the depth image to the trimmed mesh.  
 ![Convert_to_mesh](Fig/Convert_to_mesh.png)
  **Convert to mesh page**  
 
