@@ -73,7 +73,7 @@ Click 'Train' button in the 'Train' tab to obtain an average shape and record th
 
 ## (I)Score any similar image ##
 Before scoring, first modify the calibration parameters corresponding to the depth image under the 'Convert to mesh' tab. Then browse the DLC project you created and select folder that contain depth images and click the 'Score' button to score. 
-![Score](Fig/Score.png)  
+![Score](Fig/Score.png)
  **Score page**  
 
 # Mutiple mode #
