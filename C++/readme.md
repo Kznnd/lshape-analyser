@@ -1,4 +1,4 @@
-###  **The tool of C++ version is now incomplete and developing.** 
+###  **The tool of C++ version is now complete, but there are still some processes that need to optimized.** 
 
 # **LShapeAnalyser_C++** #
 Created by **Jialong Zhang(张嘉龙)** from China Agricultural University.  
