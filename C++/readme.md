@@ -59,7 +59,7 @@ Enter or import the ground truth of BCS in the 'Input BCS' tab after click 'Load
  **Input BCS page**  
 
 ## (F)Evaluate accuracy ##
-Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button to evaluate the accuracy. Modifying the value of the 'Discretization incre' and 'Display incre' will result in a change in the discrete approximation increment of the evaluation value and the displayed result increment respectively.
+Modify test times in 'Evaluate' tab, and then click 'Start evaluate' button to evaluate the accuracy. Modifying the value of the 'Discretization incre' and 'Display incre' will result in a change in the discrete approximation increment of the evaluation value and the displayed result increment respectively.  
 ![Evaluate](Fig/Evaluate.png)
  **Evaluate page**  
 
