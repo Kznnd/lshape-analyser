@@ -7,18 +7,15 @@ LShapeAnalyser tool written in C++.
 # Environment Requirements #
 **Visual Studio 2019, PCL-1.12.1, Qt-5.14.2, OpenCV-4.6.0, CGAL-5.6, libtorch-2.0.1**
 # Environment Preparation #
-## Step1 ##
-Install [anaconda](https://www.anaconda.com/data-science-platform).
-## Step2 ##
-Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
-## Step3 ##
-Download the [pcl-1.12.1](https://github.com/PointCloudLibrary/pcl/releases).
-## Step4 ##
-Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).
-## Step5 ##
-Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download).
-## Step6 ##
-Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
+
+1. Install [anaconda](https://www.anaconda.com/data-science-platform).
+2. Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
+3. Download the [pcl-1.12.1](https://github.com/PointCloudLibrary/pcl/releases).
+4. Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).
+5. Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download).
+6. Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
+7. Download [libtorch-2.0.1](https://pytorch.org/).
+
 # Usage #
 Users can directly compile and run this project in Visual studio 2019.
 ## Select mode ##
