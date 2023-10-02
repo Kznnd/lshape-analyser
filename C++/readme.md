@@ -26,7 +26,7 @@ mkdir build && cd build/
 cmake ..
 ```
 ### Step 2 ###
-Open LShapeAnalyser.sln that generate by CMake, and right click on the solution and then click generate.(Recommend in Release mode)
+Open LShapeAnalyser.sln that generate by CMake, and right click on the solution and then click generate.(Recommend in Release mode. If the additional dependency contains "FALSE.lib", please manually remove it.)
 ### Step 3 ###
 Run the LShapeAnalyser.exe in `../build/Release`.
 
