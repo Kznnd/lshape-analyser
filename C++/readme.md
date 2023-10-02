@@ -1,4 +1,4 @@
-###  **The tool of C++ version is now complete, but there are still some processes that need to optimized.** 
+###  **The tool of C++ version is now complete, but there are still some processes that need to optimized. This version requires a large amount of memory when performing meshes conversion. If your computer configuration cannot meet this requirement, please try to increase the downsampling level as much as possible.** 
 
 # **LShapeAnalyser_C++** #
 Created by **Jialong Zhang(张嘉龙)** from China Agricultural University.  
