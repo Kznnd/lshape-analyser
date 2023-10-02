@@ -30,9 +30,6 @@ Open LShapeAnalyser.sln that generate by CMake, and right click on the solution 
 ### Step 3 ###
 Run the LShapeAnalyser.exe in `../build/Release`.
 
-## Select mode ##
-User can select a mode through the tab(single or multiple) in the main page.
-
 # Single mode #
 ## (A)create or load a project ##
 User can input the project name in the edit field in the panel "Create new project" to create a new projcet or select a old project then load in the panel "Operate old project" where can also do some other management operations.  
