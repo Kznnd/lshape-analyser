@@ -10,14 +10,26 @@ LShapeAnalyser tool written in C++.
 
 1. Install [anaconda](https://www.anaconda.com/data-science-platform).
 2. Install [DeepLabCut 2.3.3](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/installation.md) with the methods of **CONDA**.
-3. Download the [pcl-1.12.1](https://github.com/PointCloudLibrary/pcl/releases).
-4. Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).
-5. Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download).
-6. Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
-7. Download [libtorch-2.0.1](https://pytorch.org/).
+3. Download the [Visual Studio](https://visualstudio.microsoft.com/downloads).
+4. Download the [pcl-1.12.1](https://github.com/PointCloudLibrary/pcl/releases).
+5. Download [Qt-5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).
+6. Download [OpenCV-4.6.0](https://sourceforge.net/projects/opencvlibrary/files/4.6.0/opencv-4.6.0-vc14_vc15.exe/download).
+7. Download [CGAL-5.6](https://github.com/CGAL/cgal/releases).
+8. Download [libtorch-2.0.1](https://pytorch.org/).
+9. Download [CMake-3.24](https://cmake.org/).
 
 # Usage #
-Users can directly compile and run this project in Visual studio 2019.
+### Step 1 ###
+```
+cd ../LShapeAnalyser/C++/Source_code/
+mkdir build && cd build/
+cmake ..
+```
+### Step 2 ###
+Open LShapeAnalyser.sln that generate by CMake, and right click on the solution and then click generate.(Recommend in Release mode)
+### Step 3 ###
+Run the LShapeAnalyser.exe in `../build/Release`.
+
 ## Select mode ##
 User can select a mode through the tab(single or multiple) in the main page.
 
