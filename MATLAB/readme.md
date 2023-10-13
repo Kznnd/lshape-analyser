@@ -1,7 +1,7 @@
 # **[LShapeAnalyser_MATLAB](https://gitee.com/kznd/lshape-analyser/tree/master)** #
 Created by **Jialong Zhang(张嘉龙)**  from China Agricultural University.  
 # Introduction #
-LShapeAnalyser tool written in MATLAB.
+LShapeAnalyser tool written in MATLAB. We are still continuously improving and optimizing the code.
 # Environment Requirements #
 **MATLAB R2023a** in windows 10/11
 # Environment Preparation #
@@ -80,12 +80,12 @@ Select mutiple projcet in the 'mutiple' tab. These projects must be based on the
  **Main page for multiple part processing**  
   
 ## (B)Train a FNN ##
-A network has been trained on data from three parts of beef cattle, which users can directly use for testing. If user need to use their own data, they need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
+User that want to use their own data need to train a new network using the ground truth values as target and predicted values obtained from the 'score' function in single project as input.
 ![FNN train](Fig/FNN_train.png)
  **FNN train page**  
   
 ## (C)Evaluation ##
-It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file).  
+It is almost identical to the single part evaluation operation, and only needs to import the network trained in the previous step (a .mat file). It should be noted that the selected dataset has the same number and a one-to-one correspondence in order.  
 ![Multiple evaluate](Fig/Mutiple_evaluate.png)
  **Multiple body part evaluation page**  
   
