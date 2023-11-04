@@ -99,11 +99,11 @@ The multiple sets of data required to be selected are from the same group, and t
 
 ## (C)Evaluate ##
 It's similar to the 'evaluate' in single mode.
-|[Multiple_evaluate](Fig/Multiple_evaluate.png)
+![Multiple_evaluate](Fig/Multiple_evaluate.png)
 
 ## (D)Score ##
 It's similar to the 'score' in single mode. However, it is necessary to manually import the relevant files in order.
-|[Multiple_score](Fig/Multiple_score.png)
+![Multiple_score](Fig/Multiple_score.png)
 
   
 **First completion Date: 2023/9/3. Currently, the development has been completed, but there are still detailed issues and some processes that need to be optimized.**
