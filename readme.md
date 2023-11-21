@@ -1,6 +1,3 @@
-# Note
-**We have developed the MATLAB version which use the appdesigner to develop. One can obtain more detail in the folder  _MATLAB/_ . We now are developing the corresponding tool used C++. Stay tuned. **
-
 # paper link
 [Automatic method for quantitatively analyzing the body condition of livestock from 3D shape](https://www.sciencedirect.com/science/article/pii/S0168169923006956).
 
